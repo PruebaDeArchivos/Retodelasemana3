@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    border: 1px solid #ddd;
+}
+
+/* Título del formulario */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Dividir el formulario en tres columnas */
+.columna {
+    float: left;
+    width: 30%; /* Cada columna ocupa un 30% del ancho */
+    padding: 10px;
+}
+
+/* Estilo básico para etiquetas y campos de entrada */
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}

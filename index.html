@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD SEMANA 3</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <form action="">
+        <h1>RESERVA TU CITA MEDICA</h1>
+
+        <section class="columna">
+            <div class="infoGeneral">
+                <label for="inputNombre">Nombre completos</label>
+                <input type="text" 
+                id="inputNombre"
+                placeholder="Juan Mamani Mamani"
+                minlength="8"
+                maxlength="22">
+            
+                <label for="inputEmail">Correo Corporativo</label>
+                <input type="email" 
+                id="inputEmail"
+                placeholder="jmamani@idateva.com.pe"
+                required>
+        
+                <label for="inputNumero">Correo Corporativo</label>
+                <input type="number" 
+                id="inputNumero"
+                placeholder="999 888 222"
+                required>
+            </div>
+        </section>
+
+        <section class="columna">
+            <div class="infoInteres">
+                <label for="inputArea">Elija su area de interes</label>
+                
+                <label for="inputEducacion">Educación
+                    <input type="radio"
+                    name="preguntaArea"
+                    id="inputEducacion">
+                </label>
+
+                <label for="inputAnimales">Animales de la calle
+                    <input type="radio"
+                    name="preguntaArea"
+                    id="inputAnimales">
+                </label>
+
+                <label for="inputAmbiente">Medio Ambiente
+                    <input type="radio"
+                    name="preguntaArea"
+                    id="inputAmbiente">
+                </label>
+
+                <label for="inputSalud">Salud
+                    <input type="radio"
+                    name="preguntaArea"
+                    id="inputSalud">
+                </label>
+
+                <label for="inputSocial">Apoyo Social
+                    <input type="radio"
+                    name="preguntaArea"
+                    id="inputSocial">
+                </label>
+            </div>
+        </section>
+
+        <section class="columna">
+            <div class="infoGlobal">
+                <label for="">Dias Disponibles</label>
+
+                <label for="inputDia1">
+                    Dia 1 : 9:00 a 12:00
+                    <input type="checkbox"
+                    name="fechasDisponibles"
+                    id="inputDia1">
+                </label>
+
+                <label for="inputDia2">
+                    Dia 2 : 13:00 a 15:00
+                    <input type="checkbox"
+                    name="fechasDisponibles"
+                    id="inputDia2">
+                </label>
+
+                <label for="inputDia3">
+                    Dia 3 : 16:00 a 17:00
+                    <input type="checkbox"
+                    name="fechasDisponibles"
+                    id="inputDia3">
+                </label>
+
+                <label for="inputExperiencia">Experiencia previa</label>
+                <input class="textEspacio" type="text" id="inputExperiencia" placeholder="Mi experiencia es en diseño web y videojuegos">
+
+                <input type="file" accept=".png, .jpg, .jpeg">
+
+                <label for="inputTerminos">
+                    <input type="checkbox" name="" id="inputTerminos" required>
+                    Terminis y condiciones
+                </label>
+            </div>
+        </section>
+
+        <button type="submit"> Enviar informacion</button>
+    </form>
+
+
+</body>
+</html>
