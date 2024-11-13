@@ -16,21 +16,20 @@ form {
     border: 1px solid #ddd;
 }
 
-/* Título del formulario */
+
 h1 {
     text-align: center;
     color: #333;
     margin-bottom: 20px;
 }
 
-/* Dividir el formulario en tres columnas */
 .columna {
     float: left;
-    width: 30%; /* Cada columna ocupa un 30% del ancho */
+    width: 30%;
     padding: 10px;
 }
 
-/* Estilo básico para etiquetas y campos de entrada */
+
 label {
     display: block;
     margin-top: 10px;
